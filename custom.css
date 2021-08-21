@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
+
+:root{
+    --background:#E8CEBF;
+    --containers:#DDAF94;
+    --text:#FDF8F5;
+    --btn:#266150;
+}
+
+body{
+    background-color: var(--background);
+    margin: 0;
+}
+
+.container{
+    font-family: 'Klee One', cursive;
+    width:50%;
+    background-color: var(--containers);
+    margin:auto;
+    text-align: center;
+    border-radius: 15px 30px 45px 7.5px;
+    padding:1rem;
+}
+.heading{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+input{
+    width: 90%;
+    padding:0.2rem;
+    margin-bottom:10px;
+}
+.calculate{
+    margin-bottom:5px;
+    border-radius: 0.2rem;
+    border-style: none;
+    padding:0.5rem;
+    background-color: var(--btn);
+    color:var(--text);
+    font-family:'Klee One', cursive;
+}
+
+.header{
+    font-family:'Klee One', cursive;
+    font-weight: bolder;
+    background-color:var(--containers);
+    margin-bottom: 50px;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    display: block;
+    padding:1rem 1rem;
+    width: 100%;
+    font-family:'Klee One', cursive;
+    font-weight: bolder;
+    background-color:var(--containers);
+    
+}
+.unordered{
+    list-style: none;
+    text-decoration: none;
+    display: inline;
+    text-align: center;
+    
+}
+
+.footer .list >a{
+    text-decoration: none;
+    margin: auto;
+    text-align: center;
+    padding:1rem;
+    color:var(--btn);
+    
+}
+
+.list{
+    display: inline;
+    text-align: center;
+    margin: auto;
+}
